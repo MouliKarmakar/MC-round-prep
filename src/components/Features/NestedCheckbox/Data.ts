@@ -1,0 +1,26 @@
+export const CheckboxData=[
+    {
+        id:1,
+        name:'Fruits',
+        children:[
+            {
+                id:2,
+                name:'Mango',
+                children:[
+                    {
+                        id:3,
+                        name:'himsagar',
+                    },
+                    {
+                        id:4,
+                        name:'langra'
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id:5,
+        name:'Cloths'
+    }
+]

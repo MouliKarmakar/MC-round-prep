@@ -10,5 +10,11 @@ export const ComponentsList=[
         comp_name:'Image Crousal',
         desc:'Bassicaly a serach feature implementation similar to google search...',
         path_params:'crousal'
+    },
+    {
+        id:3,
+        comp_name:'Nested checkbox',
+        desc:'Bassicaly a serach feature implementation similar to google search...',
+        path_params:'nested-checkbox'
     }
 ]
