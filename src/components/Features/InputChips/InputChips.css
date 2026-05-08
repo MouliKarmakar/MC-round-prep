@@ -1,0 +1,28 @@
+.chipBox{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    border-radius:120px;
+    width: fit-content;
+    background-color: antiquewhite;
+    padding: 8px 16px;
+}
+.chip_text{
+    color: black;
+}
+.cross{
+    color: red;
+    cursor: pointer;
+}
+.input_box{
+    width: 400px;
+    padding: 8px;
+    height: 48px;
+}
+.chip_container{
+    margin-top: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+    gap: 24px;
+}

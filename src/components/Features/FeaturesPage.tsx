@@ -3,6 +3,7 @@ import React from 'react';
 import AutoSearch from './AutoSearch/AutoSerach';
 import ImgCrousal from './ImgCrousal/ImgCrousal';
 import NestedCheckbox from './NestedCheckbox/NestedCheckbox';
+import InputChips from './InputChips/InputChips';
 
 const getFeatureComponent = (name: String) => {
     switch(name){
@@ -12,6 +13,8 @@ const getFeatureComponent = (name: String) => {
             return <ImgCrousal/>
         case 'nested-checkbox':
             return <NestedCheckbox/>
+        case 'input-chips':
+            return <InputChips/>;
         default:
             return null;
     }
