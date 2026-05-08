@@ -16,5 +16,11 @@ export const ComponentsList=[
         comp_name:'Nested checkbox',
         desc:'Bassicaly a serach feature implementation similar to google search...',
         path_params:'nested-checkbox'
+    },
+    {
+        id:4,
+        comp_name:'Input chips',
+        desc:'Bassicaly a serach feature implementation similar to google search...',
+        path_params:'input-chips'
     }
 ]
